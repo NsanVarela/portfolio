@@ -25,6 +25,11 @@
     transition: var(--transition);
 }
 
+.about__me-image img {
+    width: 110%;
+    height: 31vh;
+}
+
 .about__me-image:hover {
     transform: rotate(0);
 }
