@@ -1,5 +1,6 @@
 {
   "name": "portfolio-nsv",
+  "homepage": "http://nicolas-sanches-varela.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
