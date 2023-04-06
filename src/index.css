@@ -57,6 +57,7 @@ body {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     width: 13rem;
+    right: 0;
 }
 
 .dropdown__menu > li {
