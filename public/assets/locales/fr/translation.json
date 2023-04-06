@@ -1,7 +1,75 @@
 {
-  "about_me": "A propos de moi",
   "app_title": "Portfolio N. S. Varela",
   "language": "Langue",
   "welcome_message": "Bienvenue",
-  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo"
+  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo",
+  "about" : {
+    "message": "Faisons connaissance",
+    "title": "A propos de moi",
+    "experience": "Expérience",
+    "experience_years": "Plus de {{ number_of_years}} ans",
+    "clients": "Clients",
+    "clients_number": "3 clients en France",
+    "projects": "Projets",
+    "projects_number": "Plus de 10 aboutis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "Discutons"
+  },
+  "contact": {
+    "message": "Prenons contact",
+    "title": "Contactez-moi",
+    "email": "Email",
+    "email_message": "Envoyez moi un email",
+    "whatsapp": "WhatsApp",
+    "whatsapp_message": "Envoyez moi un message",
+    "form_placeholder_name": "Votre nom complet",
+    "form_placeholder_email": "Votre email",
+    "form_placeholder_message": "Votre message",
+    "form_placeholder_button": "Envoyer le message"
+  },
+  "experience": {
+    "message": "Les compétences que j'ai",
+    "title": "Mon expérience",
+    "front_title": "Développement Frontend",
+    "back_title": "Développement Backend",
+    "experienced": "Expérimenté",
+    "confirmed": "Confirmé",
+    "intermediate": "Intermédiaire",
+    "basic": "Des bases"
+  },
+  "footer": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expériences",
+    "services": "Compétences",
+    "portfolio": "Portfolio",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "copyright": "Tous droits réservés"
+  },
+  "header": {
+    "hello": "Bonjour, je suis",
+    "job": "Développeur fullstack",
+    "scroll": "Scroller vers le bas"
+  },
+  "portfolio": {
+    "message": "Mes travaux récents",
+    "title": "Portfolio",
+    "demo": "Démo en ligne"
+  },
+  "services": {
+    "message": "Ce que je propose",
+    "title": "Compétences",
+    "list_title_one": "UI/UX Design",
+    "list_title_two": "Développement web",
+    "list_title_three": "Création de contenu"
+  },
+  "testimonials": {
+    "message": "Avis de collègues",
+    "title": "Témoignages"
+  },
+  "cta": {
+    "download": "Télécharger le CV",
+    "talk": "Discutons"
+  }
 }
