@@ -165,8 +165,20 @@ img {
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
+    .dropdown {
+        left: 87.5%;
+    }
+
+    .dropdown__menu {
+        right: 92%;
+        top: 110%;
+        background: var(--color-bg-variant);
+        z-index: 2;
+    }
+
     .container {
         width: var(--containter-width-md);
+        z-index: 1;
     }
 
     section {
@@ -178,8 +190,20 @@ img {
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
+    .dropdown {
+        left: 75.5%;
+    }
+
+    .dropdown__menu {
+        right: 100%;
+        top: 0;
+        background: var(--color-bg-variant);
+        z-index: 2;
+    }
+
     .container {
         width: var(--containter-width-sm);
+        z-index: 1;
     }
 
     section > h2 {
