@@ -1,15 +1,23 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { FiUsers } from 'react-icons/fi'
+import { VscFolderLibrary } from 'react-icons/vsc'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+    const { t } = useTranslation()
+
+    const devWorkingDate = new Date('2018-10-01')
+    const timeDifference = new Date() - devWorkingDate
+    const number_of_days = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
+    const number_of_month = Math.floor(number_of_days / 31)
+    const number_of_years = Math.floor( number_of_month / 12)
     return (
         <section id='about'>
-            <h5>Get to know</h5>
-            <h2>About me</h2>
+            <h5>{t('about.message')}</h5>
+            <h2>{t('about.title')}</h2>
 
             <div className='container about__container'>
                 <div className='about__me'>
@@ -21,28 +29,28 @@ const About = () => {
                     <div className='about__cards'>
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>4+ Years Working</small>
+                            <h5>{t('about.experience')}</h5>
+                            <small>{t('about.experience_years', { number_of_years })}</small>
                         </article>
 
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
+                            <h5>{t('about.clients')}</h5>
+                            <small>{t('about.clients_number')}</small>
                         </article>
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <h5>{t('about.projects')}</h5>
+                            <small>{t('about.projects_number')}</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.
+                        {t('about.description')}
                     </p>
 
-                    <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+                    <a href='#contact' className='btn btn-primary'>{t('about.cta')}</a>
                 </div>
             </div>
         </section>

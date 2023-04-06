@@ -1,0 +1,74 @@
+{
+  "app_title": "Portfolio N. S. Varela",
+  "language": "Sprache",
+  "welcome_message": "Willkommen",
+  "about" : {
+    "message": "Machen wir uns bekannt",
+    "title": "Über mich",
+    "experience": "Erfahrung",
+    "experience_years": "Mehr als {{ number_of_years}} Jahre",
+    "clients": "Kunden",
+    "clients_number": "3 Kunden in Frankreich",
+    "projects": "Projekte",
+    "projects_number": "Mehr als 10 erfolgreich",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "Diskutieren Sie"
+  },
+  "contact": {
+    "message": "Nehmen wir Kontakt auf",
+    "title": "Kontaktieren Sie mich",
+    "email": "E-Mail",
+    "email_message": "Senden Sie mir eine E-Mail",
+    "whatsapp": "WhatsApp",
+    "whatsapp_message": "Senden Sie mir eine Nachricht",
+    "form_placeholder_name": "Ihr vollständiger Name",
+    "form_placeholder_email": "Deine E-Mail",
+    "form_placeholder_message": "Ihre Nachricht",
+    "form_placeholder_button": "Nachricht senden"
+  },
+  "experience": {
+    "message": "Die Fähigkeiten, die ich habe",
+    "title": "Meine Erfahrung",
+    "front_title": "Frontend-Entwicklung",
+    "back_title": "Backend-Entwicklung",
+    "experienced": "Erfahren",
+    "confirmed": "Bestätigt",
+    "intermediate": "Intermediär",
+    "basic": "Basen"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "Über mich",
+    "experience": "Erfahrungen",
+    "services": "Kompetenzen",
+    "portfolio": "Portfolio",
+    "testimonials": "Erfahrungsberichte",
+    "contact": "Kontakt",
+    "copyright": "Alle Rechte vorbehalten"
+  },
+  "header": {
+    "hello": "Hallo, ich bin",
+    "job": "Fullstack-Entwickler",
+    "scroll": "Nach unten scrollen"
+  },
+  "portfolio": {
+    "message": "Meine jüngsten Arbeiten",
+    "title": "Portfolio",
+    "demo": "Online-Demo"
+  },
+  "services": {
+    "message": "Was ich vorschlage",
+    "title": "Kompetenzen",
+    "list_title_one": "UI/UX Design",
+    "list_title_two": "Web-Entwicklung",
+    "list_title_three": "Erstellung von Inhalten"
+  },
+  "testimonials": {
+    "message": "Meinungen von Kollegen",
+    "title": "Erfahrungsberichte"
+  },
+  "cta": {
+    "download": "Lebenslauf hochladen",
+    "talk": "Diskutieren Sie"
+  }
+}

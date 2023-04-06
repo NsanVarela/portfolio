@@ -1,0 +1,74 @@
+{
+  "app_title": "Portfolio N. S. Varela",
+  "language": "Language",
+  "welcome_message": "Welcome",
+  "about" : {
+    "message": "Get to know",
+    "title": "About me",
+    "experience": "Experience",
+    "experience_years": "{{ number_of_years}}+ Years working",
+    "clients": "Clients",
+    "clients_number": "3 clients in France",
+    "projects": "Projects",
+    "projects_number": "More than 10 completed",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "Let's talk"
+  },
+  "contact": {
+    "message": "Get in Touch",
+    "title": "Contact me",
+    "email": "Email",
+    "email_message": "Send me a message",
+    "whatsapp": "WhatsApp",
+    "whatsapp_message": "Send me a message",
+    "form_placeholder_name": "Your full Name",
+    "form_placeholder_email": "Your Email",
+    "form_placeholder_message": "Your message",
+    "form_placeholder_button": "Send Message"
+  },
+  "experience": {
+    "message": "What Skills I Have",
+    "title": "My Experience",
+    "front_title": "Frontend Development",
+    "back_title": "Backend Development",
+    "experienced": "Experienced",
+    "confirmed": "confirmed",
+    "intermediate": "Intermediate",
+    "basic": "Basic"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "copyright": "All rights reserved"
+  },
+  "header": {
+    "hello": "Hello I'm",
+    "job": "Fullstack Developer",
+    "scroll": "Scroll Down"
+  },
+  "portfolio": {
+    "message": "My Recent Work",
+    "title": "Portfolio",
+    "demo": "Live Demo"
+  },
+  "services": {
+    "message": "What I Offer",
+    "title": "Skills",
+    "list_title_one": "UI/UX Design",
+    "list_title_two": "Web Development",
+    "list_title_three": "Content Creation"
+  },
+  "testimonials": {
+    "message": "Colleagues' opinions",
+    "title": "Testimonials"
+  },
+  "cta": {
+    "download": "Download CV",
+    "talk": "Let's talk"
+  }
+}

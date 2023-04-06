@@ -11,7 +11,7 @@ footer a {
 }
 
 .footer__logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
@@ -62,5 +62,9 @@ footer a {
 
     .footer__socials {
         margin-bottom: 2.6rem;
+    }
+
+    .footer__logo {
+        font-size: 1.5rem;
     }
 }

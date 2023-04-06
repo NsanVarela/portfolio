@@ -1,0 +1,74 @@
+{
+  "app_title": "محفظة N. S. Varela",
+  "language": "اللغة",
+  "welcome_message": "اهلا بكم",
+  "about": {
+    "message": "بدأ أن يفهم",
+    "title": "ْعَنِّي",
+    "experience": "خبرة",
+    "experience_years": "أكثر من {{ number_of_years}} سنوات في العمل",
+    "clients": "عملاء",
+    "clients_number": "3 عملاء في فرنسا",
+    "projects": "المشاريع",
+    "projects_number": "أكثر من 10 اكتمل",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "لنتحدث"
+  },
+  "contact": {
+    "message": "دعونا الحصول على اتصال",
+    "title": "اتصل بي",
+    "email": "Email",
+    "email_message": "بريد إلكتروني",
+    "whatsapp": "ال WhatsApp",
+    "whatsapp_message": "ارسل لي رسالة",
+    "form_placeholder_name": "اسمك الكامل",
+    "form_placeholder_email": "بريدك الالكتروني",
+    "form_placeholder_message": "رسالتك",
+    "form_placeholder_button": "أرسل رسالة"
+  },
+  "experience": {
+    "message": "المهارات التي أمتلكها",
+    "title": "تجربتي",
+    "front_title": "تطوير الواجهة الأمامية",
+    "back_title": "تطوير الخلفية",
+    "experienced": "ذوي الخبرة",
+    "confirmed": "مؤكد",
+    "intermediate": "متوسط",
+    "basic": "أساسي"
+  },
+  "footer": {
+    "home": "الصفحة الرئيسية",
+    "about": "عني",
+    "experience": "خبرة",
+    "services": "مهارات",
+    "portfolio": "ملف",
+    "testimonials": "الشهادات - التوصيات",
+    "contact": "تلامس",
+    "copyright": "جميع الحقوق محفوظة"
+  },
+  "header": {
+    "hello": "مرحبا أنا",
+    "job": "مطور كامل المكدس",
+    "scroll": "حرك الفأرة لأسفل"
+  },
+  "portfolio": {
+    "message": "أعمالي الأخيرة",
+    "title": "مَلَفّ",
+    "demo": "عرض حي"
+  },
+  "services": {
+    "message": "ما اقدمه",
+    "title": "مهارات",
+    "list_title_one": "تصميم UI / UX",
+    "list_title_two": "تطوير الويب",
+    "list_title_three": "انشاء محتوى"
+  },
+  "testimonials": {
+    "message": "تعليقات من الزملاء",
+    "title": "الشهادات - التوصيات"
+  },
+  "cta": {
+    "download": "تحميل السيرة الذاتية",
+    "talk": "لنتحدث"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "app_title": "Cartera N. S. Varela",
+  "language": "Idioma",
+  "welcome_message": "Bienvenido",
+  "about" : {
+    "message": "Llegar a saber",
+    "title": "Acerca de mí",
+    "experience": "Experiencia",
+    "experience_years": "{{ number_of_years}}+ años trabajando",
+    "clients": "Clientes",
+    "clients_number": "3 clientes en Francia",
+    "projects": "Proyectos",
+    "projects_number": "Más de 10 completados",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "Hablemos"
+  },
+  "contact": {
+    "message": "Ponerse en contacto",
+    "title": "Contáctame",
+    "email": "Correo electrónico",
+    "email_message": "Envíeme un mensaje",
+    "whatsapp": "WhatsApp",
+    "whatsapp_message": "Envíeme un mensaje",
+    "form_placeholder_name": "Tu nombre completo",
+    "form_placeholder_email": "Tu correo electrónico",
+    "form_placeholder_message": "Tu mensaje",
+    "form_placeholder_button": "Enviar mensaje"
+  },
+  "experience": {
+    "message": "Que habilidades tengo",
+    "title": "Mi experiencia",
+    "front_title": "Desarrollo front-end",
+    "back_title": "Desarrollo de back-end",
+    "experienced": "Experimentado",
+    "confirmed": "confirmado",
+    "intermediate": "Intermedio",
+    "basic": "Básico"
+  },
+  "footer": {
+    "home": "Hogar",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "copyright": "Reservados todos los derechos"
+  },
+  "header": {
+    "hello": "Hola soy",
+    "job": "Desarrollador de pila completa",
+    "scroll": "Desplazarse hacia abajo"
+  },
+  "portfolio": {
+    "message": "Mi trabajo reciente",
+    "title": "Portafolio",
+    "demo": "Demo en vivo"
+  },
+  "services": {
+    "message": "lo que ofrezco",
+    "title": "Habilidades",
+    "list_title_one": "Diseño de interfaz de usuario/UX",
+    "list_title_two": "Desarrollo web",
+    "list_title_three": "Creación de contenido"
+  },
+  "testimonials": {
+    "message": "Opiniones de colegas",
+    "title": "Testimonios"
+  },
+  "cta": {
+    "download": "Descargar currículum",
+    "talk": "Hablemos"
+  }
+}
