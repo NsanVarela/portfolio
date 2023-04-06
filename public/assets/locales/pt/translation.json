@@ -1,0 +1,74 @@
+{
+  "app_title": "Carteira N. S. Varela",
+  "language": "Idioma",
+  "welcome_message": "Bem-vindo",
+  "about" : {
+    "message": "Vamos conhecer-nos melhor",
+    "title": "Sobre mim",
+    "experience": "Experiência",
+    "experience_years": "Mais de {{ number_of_years}} anos",
+    "clients": "Clientes",
+    "clients_number": "3 clientes em França",
+    "projects": "Projectos",
+    "projects_number": "Mais de 10 completados",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "cta": "Vamos falar"
+  },
+  "contact": {
+    "message": "Vamos entrar em contacto",
+    "title": "Contacte-me em",
+    "email": "Email",
+    "email_message": "Enviem-me um e-mail",
+    "whatsapp": "WhatsApp",
+    "whatsapp_message": "Enviem-me uma mensagem",
+    "form_placeholder_name": "O seu nome completo",
+    "form_placeholder_email": "O seu e-mail",
+    "form_placeholder_message": "A sua mensagem",
+    "form_placeholder_button": "Enviar a mensagem"
+  },
+  "experience": {
+    "message": "As competências que tenho",
+    "title": "A minha experiência",
+    "front_title": "Desenvolvimento de Frontend",
+    "back_title": "Desenvolvimento backend",
+    "experienced": "Experiente",
+    "confirmed": "Confirmado",
+    "intermediate": "Intermediário",
+    "basic": "O básico"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "Sobre nós",
+    "experience": "Experiências",
+    "services": "Competências",
+    "portfolio": "Portfólio",
+    "testimonials": "Testemunhos",
+    "contact": "Contacto",
+    "copyright": "Todos os direitos reservados"
+  },
+  "header": {
+    "hello": "Olá, eu sou",
+    "job": "Desenvolvedor de pilha completa",
+    "scroll": "Percorrer para baixo"
+  },
+  "portfolio": {
+    "message": "O meu trabalho recente",
+    "title": "Portfólio",
+    "demo": "Demonstração online"
+  },
+  "services": {
+    "message": "O que eu proponho",
+    "title": "Competências",
+    "list_title_one": "Desenho UI/UX",
+    "list_title_two": "Desenvolvimento Web",
+    "list_title_three": "Criação de conteúdos"
+  },
+  "testimonials": {
+    "message": "Opiniões dos colegas",
+    "title": "Testemunhos"
+  },
+  "cta": {
+    "download": "Descarregar o CV",
+    "talk": "Vamos falar"
+  }
+}

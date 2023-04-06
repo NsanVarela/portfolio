@@ -1,0 +1,75 @@
+{
+  "app_title": "",
+  "language": "",
+  "welcome_message": "",
+  "days_since_release": "",
+  "about" : {
+    "message": "",
+    "title": "",
+    "experience": "",
+    "experience_years": "",
+    "clients": "",
+    "clients_number": "",
+    "projects": "",
+    "projects_number": "",
+    "description": "",
+    "cta": ""
+  },
+  "contact": {
+    "message": "",
+    "title": "",
+    "email": "",
+    "email_message": "",
+    "whatsapp": "",
+    "whatsapp_message": "",
+    "form_placeholder_name": "",
+    "form_placeholder_email": "",
+    "form_placeholder_message": "",
+    "form_placeholder_button": ""
+  },
+  "experience": {
+    "message": "",
+    "title": "",
+    "front_title": "",
+    "back_title": "",
+    "experienced": "",
+    "confirmed": "",
+    "intermediate": "",
+    "basic": ""
+  },
+  "footer": {
+    "home": "",
+    "about": "",
+    "experience": "",
+    "services": "",
+    "portfolio": "",
+    "testimonials": "",
+    "contact": "",
+    "copyright": ""
+  },
+  "header": {
+    "hello": "",
+    "job": "",
+    "scroll": ""
+  },
+  "portfolio": {
+    "message": "",
+    "title": "",
+    "demo": ""
+  },
+  "services": {
+    "message": "",
+    "title": "",
+    "list_title_one": "",
+    "list_title_two": "",
+    "list_title_three": ""
+  },
+  "testimonials": {
+    "message": "",
+    "title": ""
+  },
+  "cta": {
+    "download": "",
+    "talk": ""
+  }
+}

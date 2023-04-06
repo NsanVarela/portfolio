@@ -2,10 +2,9 @@
   "app_title": "Portfolio N. S. Varela",
   "language": "Langue",
   "welcome_message": "Bienvenue",
-  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo",
   "about" : {
     "message": "Faisons connaissance",
-    "title": "A propos de moi",
+    "title": "À propos de moi",
     "experience": "Expérience",
     "experience_years": "Plus de {{ number_of_years}} ans",
     "clients": "Clients",

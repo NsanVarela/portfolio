@@ -27,10 +27,25 @@ const languages = [
         country_code: 'gb'
     },
     {
+        code: 'es',
+        name: 'Español',
+        country_code: 'es',
+    },
+    {
+        code: 'pt',
+        name: 'Português',
+        country_code: 'pt',
+    },
+    {
         code: 'ar',
         name: 'العربي',
         country_code: 'sa',
         dir: 'rtl'
+    },
+    {
+        code: 'de',
+        name: 'Deutsch',
+        country_code: 'de',
     },
 ]
 
