@@ -43,8 +43,8 @@ body {
 
 /* ================ GENERAL STYLE ======================= */
 .dropdown {
-    position: relative;
-    left: 85.5%;
+    position: fixed;
+    left: 95%;
     top: 2rem;
 }
 
@@ -166,6 +166,7 @@ img {
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
     .dropdown {
+        position: relative;
         left: 87.5%;
     }
 
@@ -191,6 +192,7 @@ img {
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
     .dropdown {
+        position: relative;
         left: 75.5%;
     }
 
