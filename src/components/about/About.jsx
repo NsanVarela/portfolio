@@ -1,15 +1,22 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { FiUsers } from 'react-icons/fi'
+import { VscFolderLibrary } from 'react-icons/vsc'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+    const { t } = useTranslation()
+
+    const releaseDate = new Date('2023-04-04')
+    const timeDifference = new Date() - releaseDate
+    // const number_of_days = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
     return (
         <section id='about'>
             <h5>Get to know</h5>
-            <h2>About me</h2>
+            <h2>{t('about_me')}</h2>
+            {/*<p>{t('days_since_release', { number_of_days })}</p>*/}
 
             <div className='container about__container'>
                 <div className='about__me'>
