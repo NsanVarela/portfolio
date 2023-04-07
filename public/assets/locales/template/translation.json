@@ -60,9 +60,9 @@
   "services": {
     "message": "",
     "title": "",
-    "list_title_one": "",
-    "list_title_two": "",
-    "list_title_three": ""
+    "app-web-title": "",
+    "responsive-title": "",
+    "architecture-title": ""
   },
   "testimonials": {
     "message": "",

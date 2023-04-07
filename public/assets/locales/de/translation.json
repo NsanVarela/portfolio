@@ -11,7 +11,7 @@
     "clients_number": "3 Kunden in Frankreich",
     "projects": "Projekte",
     "projects_number": "Mehr als 10 erfolgreich",
-    "description": "Mit mehr als vier Jahren Erfahrung in der Webentwicklung nach einer beruflichen Umschulung kann ich Ihnen heute meine Dienste als erfahrener Full-Stack-Webentwickler anbieten. Ich bin zuverlässig und in der Lage, sowohl selbstständig als auch im Team zu arbeiten. Ich besitze eine gute Analysefähigkeit und eine echte Initiative bei der Lösung von Problemen. Meine Anpassungsfähigkeit ermöglicht es mir, im Team zu arbeiten und Ihre Web-Herausforderungen zu meistern, egal ob es sich dabei um ein Produkt oder mehrere Produkte handelt.",
+    "description": "Mit mehr als vier Jahren Erfahrung in der Webentwicklung nach einer beruflichen Umschulung kann ich Ihnen heute meine Dienste als erfahrener Full-Stack-Webentwickler anbieten. Ich bin zuverlässig und in der Lage, sowohl selbstständig als auch im Team zu arbeiten. Ich besitze eine gute Analysefähigkeit und eine echte Initiative bei der Lösung von Problemen. Meine Anpassungsfähigkeit ermöglicht es mir, im Team zu arbeiten und Ihre Web-Herausforderungen zu meistern, egal ob es sich um ein einzelnes Produkt oder mehrere Produkte handelt, die im Agile-/Scrum-Modus entwickelt werden.",
     "cta": "Diskutieren Sie"
   },
   "contact": {
@@ -31,6 +31,7 @@
     "title": "Meine Erfahrung",
     "front_title": "Frontend-Entwicklung",
     "back_title": "Backend-Entwicklung",
+    "work-environment_title": "Arbeitsumgebung",
     "experienced": "Erfahren",
     "confirmed": "Bestätigt",
     "intermediate": "Intermediär",
@@ -57,11 +58,20 @@
     "demo": "Online-Demo"
   },
   "services": {
-    "message": "Was ich vorschlage",
+    "message": "Was ich tun kann",
     "title": "Kompetenzen",
-    "list_title_one": "UI/UX Design",
-    "list_title_two": "Web-Entwicklung",
-    "list_title_three": "Erstellung von Inhalten"
+    "app-web-title": "Web-Anwendungen",
+    "app-web-content": "Erstellung von Fachanwendungen, Intranet, Extranet, Corporate Sites und Schaufenster-Sites, Web Apps...",
+    "responsive-title": "Responsive Design",
+    "responsive-content": "Nutzung der Technologien HTML5 / CSS3, um adaptive Designs zu realisieren. Verwendung der Frameworks Bootstrap / Material UI, um die Umsetzung zu erleichtern und die Produktivität zu steigern.",
+    "architecture-title": "Software-Architektur",
+    "architecture-content": "MVC Design Pattern, um die Schichten zu trennen und \"Spaghetti\"-Code zu vermeiden. Objektorientierte Programmierung / PDO für MySQL / AJAX / Jquery / Javascript / WebService RestFul JSON ...",
+    "code-title": "Klarer Code",
+    "code-content": "Um ihre Wiederaufnahme und Wartbarkeit zu erleichtern. Meine Prioritäten: KISS / DRY. Beitrag zur Erstellung einfacher technischer Dokumentationen.",
+    "seo-accessibility-title": "SEO - Barrierefreiheit",
+    "seo-accessibility-content": "Nutzung der Tools Google Analytics / Adsense / Adwords / Tanaguru. Anwendung von SEO-Regeln und Best Practices und digitaler Barrierefreiheit.",
+    "team-title": "In einem Team arbeiten",
+    "team-content": "Zuhören können, sich austauschen und sich gegenseitig helfen, um gemeinsam Fortschritte zu machen (Scrum, Jira, Git, GitLab, Confluence...)."
   },
   "testimonials": {
     "message": "Meinungen von Kollegen",

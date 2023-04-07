@@ -36,12 +36,12 @@ const languages = [
         name: 'Português',
         country_code: 'pt',
     },
-/*    {
+    {
         code: 'ar',
         name: 'العربي',
         country_code: 'sa',
         dir: 'rtl'
-    },*/
+    },
     {
         code: 'de',
         name: 'Deutsch',

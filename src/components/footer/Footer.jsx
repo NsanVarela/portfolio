@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className='footer__copyright'>
-                <small>&copy; NsanV. {t('footer.copyright')}.</small>
+                <small>&copy; NsanV 2023. {t('footer.copyright')}.</small>
             </div>
         </footer>
     )
