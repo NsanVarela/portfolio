@@ -3,7 +3,7 @@
   "language": "Idioma",
   "welcome_message": "Bienvenido",
   "about" : {
-    "message": "Llegar a saber",
+    "message": "Conozcámonos",
     "title": "Acerca de mí",
     "experience": "Experiencia",
     "experience_years": "{{ number_of_years}}+ años trabajando",
@@ -27,17 +27,17 @@
     "form_placeholder_button": "Enviar mensaje"
   },
   "experience": {
-    "message": "Que habilidades tengo",
+    "message": "Mis habilitades",
     "title": "Mi experiencia",
-    "front_title": "Desarrollo front-end",
-    "back_title": "Desarrollo de back-end",
+    "front_title": "Developer front-end",
+    "back_title": "Developer de back-end",
     "experienced": "Experimentado",
     "confirmed": "confirmado",
     "intermediate": "Intermedio",
     "basic": "Básico"
   },
   "footer": {
-    "home": "Hogar",
+    "home": "Home",
     "about": "Acerca de",
     "experience": "Experiencia",
     "services": "Servicios",
@@ -48,7 +48,7 @@
   },
   "header": {
     "hello": "Hola soy",
-    "job": "Desarrollador de pila completa",
+    "job": "Developer Fullstack",
     "scroll": "Desplazarse hacia abajo"
   },
   "portfolio": {
@@ -60,7 +60,7 @@
     "message": "lo que ofrezco",
     "title": "Habilidades",
     "list_title_one": "Diseño de interfaz de usuario/UX",
-    "list_title_two": "Desarrollo web",
+    "list_title_two": "Developer web",
     "list_title_three": "Creación de contenido"
   },
   "testimonials": {
