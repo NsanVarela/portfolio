@@ -1,7 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from "react-icons/bi";
-import {useTranslation} from "react-i18next";
+import {useTranslation} from 'react-i18next'
 
 const Services = () => {
 
