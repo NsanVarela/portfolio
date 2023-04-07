@@ -1,7 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from "react-icons/bi";
-import {useTranslation} from "react-i18next";
+import {useTranslation} from 'react-i18next'
 
 const Services = () => {
 
@@ -15,87 +14,72 @@ const Services = () => {
             <div className='container services__container'>
                 <article className='service'>
                     <div className='service__head'>
-                        <h3>{t('services.list_title_one')}</h3>
+                        <h3>{t('services.app-web-title')}</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.app-web-content')}</p>
                         </li>
                     </ul>
                 </article>
 
                 <article className='service'>
                     <div className='service__head'>
-                        <h3>{t('services.list_title_two')}</h3>
+                        <h3>{t('services.responsive-title')}</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.responsive-content')}</p>
                         </li>
                     </ul>
                 </article>
 
                 <article className='service'>
                     <div className='service__head'>
-                        <h3>{t('services.list_title_three')}</h3>
+                        <h3>{t('services.architecture-title')}</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.architecture-content')}</p>
                         </li>
+                    </ul>
+                </article>
+
+                <article className='service'>
+                    <div className='service__head'>
+                        <h3>{t('services.code-title')}</h3>
+                    </div>
+
+                    <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.code-content')}</p>
                         </li>
+                    </ul>
+                </article>
+
+                <article className='service'>
+                    <div className='service__head'>
+                        <h3>{t('services.seo-accessibility-title')}</h3>
+                    </div>
+
+                    <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.seo-accessibility-content')}</p>
                         </li>
+                    </ul>
+                </article>
+
+                <article className='service'>
+                    <div className='service__head'>
+                        <h3>{t('services.team-title')}</h3>
+                    </div>
+
+                    <ul className='service__list'>
                         <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='services__list-icon' />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>{t('services.team-content')}</p>
                         </li>
                     </ul>
                 </article>

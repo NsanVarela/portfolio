@@ -11,7 +11,7 @@
     "clients_number": "3 clientes en Francia",
     "projects": "Proyectos",
     "projects_number": "Más de 10 completados",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "description": "Con más de 4 años de experiencia en desarrollo web tras una reconversión profesional, ahora puedo ofrecer mis servicios como desarrollador web Full stack. Fiable y capaz de trabajar tanto de forma independiente como en equipo, tengo una buena capacidad de análisis y una iniciativa real en la resolución de problemas. Mi adaptabilidad me permite trabajar en equipo y responder a sus retos web, ya sean mono-producto o multi-producto en modo Agile / Scrum.",
     "cta": "Hablemos"
   },
   "contact": {
@@ -31,6 +31,7 @@
     "title": "Mi experiencia",
     "front_title": "Developer front-end",
     "back_title": "Developer de back-end",
+    "work-environment_title": "Entorno de trabajo",
     "experienced": "Experimentado",
     "confirmed": "confirmado",
     "intermediate": "Intermedio",
@@ -57,11 +58,20 @@
     "demo": "Demo en vivo"
   },
   "services": {
-    "message": "lo que ofrezco",
+    "message": "Lo que puedo hacer",
     "title": "Habilidades",
-    "list_title_one": "Diseño de interfaz de usuario/UX",
-    "list_title_two": "Developer web",
-    "list_title_three": "Creación de contenido"
+    "app-web-title": "Aplicaciones web",
+    "app-web-content": "Creación de aplicaciones empresariales, Intranet, Extranet, Sitios corporativos y de escaparate, Aplicaciones web...",
+    "responsive-title": "Diseño adaptable",
+    "responsive-content": "Uso de tecnologías HTML5 / CSS3 para crear diseños adaptables. Uso de Bootstrap / Material UI frameworks para facilitar la implementación y aumentar la productividad.",
+    "architecture-title": "Arquitectura de software",
+    "architecture-content": "Patrón de diseño MVC para separar las capas y evitar el código \"espagueti\". Programación orientada a objetos / PDO para MySQL / AJAX / Jquery / Javascript / WebService RestFul JSON ...",
+    "code-title": "Código claro",
+    "code-content": "Facilitar su recuperación y mantenibilidad. Mis prioridades: KISS / DRY. Contribución a la redacción de documentación técnica sencilla.",
+    "seo-accessibility-title": "SEO - Accesibilidad",
+    "seo-accessibility-content": "Uso de herramientas Google Analytics / Adsense / Adwords / Tanaguru. Aplicación de normas y buenas prácticas de SEO y accesibilidad digital.",
+    "team-title": "Trabajar en equipo",
+    "team-content": "Saber escuchar, intercambiar y ayudarse a progresar juntos (Scrum, Jira, Git, GitLab, Confluence...)."
   },
   "testimonials": {
     "message": "Opiniones de colegas",

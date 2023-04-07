@@ -11,7 +11,7 @@
     "clients_number": "3 clients in France",
     "projects": "Projects",
     "projects_number": "More than 10 completed",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.",
+    "description": "With more than 4 years of experience in web development following a professional reconversion, I can now offer my services as a Full stack web developer. Reliable and able to work independently as well as in a team, I have a good capacity of analysis and a real initiative in the resolution of problems. My adaptability allows me to work in a team and to answer your web challenges, whether they are mono-product or multi-product in Agile / Scrum mode.",
     "cta": "Let's talk"
   },
   "contact": {
@@ -31,6 +31,7 @@
     "title": "My Experience",
     "front_title": "Frontend Development",
     "back_title": "Backend Development",
+    "work-environment_title": "Working environment",
     "experienced": "Experienced",
     "confirmed": "confirmed",
     "intermediate": "Intermediate",
@@ -57,11 +58,20 @@
     "demo": "Live Demo"
   },
   "services": {
-    "message": "What I Offer",
+    "message": "What I can do",
     "title": "Skills",
-    "list_title_one": "UI/UX Design",
-    "list_title_two": "Web Development",
-    "list_title_three": "Content Creation"
+    "app-web-title": "Web applications",
+    "app-web-content": "Creation of business applications, Intranet, Extranet, Corporate and showcase sites, Web apps...",
+    "responsive-title": "Responsive design",
+    "responsive-content": "Use of HTML5 / CSS3 technologies to create adaptive designs. Use of Bootstrap / Material UI frameworks to facilitate implementation and increase productivity",
+    "architecture-title": "Software architecture",
+    "architecture-content": "MVC design pattern to separate the layers and avoid \"spaghetti\" code. Object oriented programming / PDO for MySQL / AJAX / Jquery / Javascript / WebService RestFul JSON ...",
+    "code-title": "Clear code",
+    "code-content": "To facilitate its recovery and maintainability. My priorities: KISS / DRY. Contribution to the writing of simple technical documentation.",
+    "seo-accessibility-title": "SEO - Accessibility",
+    "seo-accessibility-content": "Use of Google Analytics / Adsense / Adwords / Tanaguru tools. Application of SEO and digital accessibility rules and best practices.",
+    "team-title": "Working in a team",
+    "team-content": "Know how to listen, exchange and help each other to progress together (Scrum, Jira, Git, GitLab, Confluence...)."
   },
   "testimonials": {
     "message": "Colleagues' opinions",

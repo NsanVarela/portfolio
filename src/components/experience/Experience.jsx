@@ -19,14 +19,14 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
-                                <h4>HTML</h4>
+                                <h4>HTML5</h4>
                                 <small className='text-light'>{t('experience.experienced')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
-                                <h4>CSS</h4>
+                                <h4>CSS3</h4>
                                 <small className='text-light'>{t('experience.confirmed')}</small>
                             </div>
                         </article>
@@ -40,7 +40,35 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
+                                <h4>TypeScript</h4>
+                                <small className='text-light'>{t('experience.confirmed')}</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>jQuery</h4>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>JSON</h4>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
                                 <h4>Bootstrap</h4>
+                                <small className='text-light'>{t('experience.experienced')}</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Material</h4>
                                 <small className='text-light'>{t('experience.experienced')}</small>
                             </div>
                         </article>
@@ -95,6 +123,13 @@ const Experience = () => {
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
+                                <h4>API REST</h4>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
                                 <h4>MongoDB</h4>
                                 <small className='text-light'>{t('experience.basic')}</small>
                             </div>
@@ -106,6 +141,37 @@ const Experience = () => {
                                 <small className='text-light'>{t('experience.basic')}</small>
                             </div>
                         </article>
+                    </div>
+                </div>
+
+                <div className='experience__work-environment'>
+                    <h3>{t('experience.work-environment_title')}</h3>
+                    <div className='experience__content'>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Système d'exploitation</h4>
+                                <small className='text-light'>Windows 10, </small>
+                                <small className='text-light'>Linux</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Workflow</h4>
+                                <small className='text-light'>Git, </small>
+                                <small className='text-light'>MAMP, </small>
+                                <small className='text-light'>Chrome DevTools, </small>
+                                <small className='text-light'>FileZilla, </small>
+                                <small className='text-light'>Postman, </small>
+                                <small className='text-light'>pg Admin, </small>
+                                <small className='text-light'>NPM, </small>
+                                <small className='text-light'>Jira, </small>
+                                <small className='text-light'>Confluence, </small>
+                                <small className='text-light'>Trello</small>
+                            </div>
+                        </article>
+
                     </div>
                 </div>
             </div>
