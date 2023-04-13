@@ -12,6 +12,14 @@
     transition: var(--transition);
 }
 
+.portfolio__logo {
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -23,6 +31,7 @@
 }
 
 .portfolio__item h3 {
+    display: flex;
     margin: 1.2rem 0 2rem;
 }
 

@@ -1,55 +1,75 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-import {useTranslation} from "react-i18next";
+import IMG1 from '../../assets/card-mes-evenements-emploi.png'
+import IMG2 from '../../assets/card-salon-en-ligne.png'
+import IMG3 from '../../assets/card-trad-emploi.png'
+import IMG4 from '../../assets/card-la-bonne-competence-pro.png'
+import IMG5 from '../../assets/card-map.png'
+import IMG6 from '../../assets/card-webrtc.png'
+import LOGO from '../../assets/logo-pe.jpg'
+import {useTranslation} from 'react-i18next'
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Crypto Currency Dashboard & Financial Visualization',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+        logo: LOGO,
+        title: 'Mes événements emploi',
+        github: 'https://github.com/StartupsPoleEmploi/mesevenementsemploi',
+        demo: 'https://mesevenementsemploi.pole-emploi.fr/mes-evenements-emploi/evenements',
+        hasLogo: true,
+        isOpenSource: true
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Charts templates & infographics in Figma',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+        logo: LOGO,
+        title: 'Salons en ligne de recrutement',
+        github: '#',
+        demo: 'https://salonenligne.pole-emploi.fr/candidat/',
+        hasLogo: true,
+        isOpenSource: false
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Maintaining tasks and tracking progress',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+        logo: LOGO,
+        title: 'TradEmploi',
+        github: 'https://github.com/OSS-Pole-Emploi/TradEmploi',
+        demo: 'https://trad.pole-emploi.fr/start',
+        hasLogo: true,
+        isOpenSource: true
     },
     {
         id: 4,
         image: IMG4,
-        title: 'Eclipse Figma dashboard UI kit for data design web-apps',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/20895045-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+        logo: LOGO,
+        title: 'La bonne compétence pro',
+        github: '#',
+        demo: 'https://labonnecompetencepro.pole-emploi.fr/',
+        baseline: 'La Bonne Compétence Pro : un outil pour accélérer les recrutements des entreprises.',
+        hasLogo: true,
+        isOpenSource: false
     },
     {
         id: 5,
         image: IMG5,
-        title: 'Eclipse Figma dashboard UI kit for data design web-apps',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/19886922-Orion-UI-kit-for-Figma'
+        logo: LOGO,
+        title: 'Map animation',
+        github: 'https://github.com/NsanVarela/noBord-map',
+        demo: 'https://map.nicolas-sanches-varela.com/',
+        hasLogo: false,
+        isOpenSource: true
     },
     {
         id: 6,
         image: IMG6,
-        title: 'Orion UI kit – data visualization and charts templates for Figma',
-        github: 'https://github.com',
-        demo: 'https://dribbble.com/shots/20894634-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+        logo: LOGO,
+        title: 'Communications en temps réel - WebRTC',
+        github: 'https://github.com/NsanVarela/demo-webrtc',
+        demo: 'https://realtime-communication-webrtc.osc-fr1.scalingo.io/',
+        hasLogo: false,
+        isOpenSource: true
     }
 ]
 
@@ -64,20 +84,22 @@ const Portfolio = () => {
 
             <div className='container portfolio__container'>
                 {
-                    data.map(({id, image, title, github, demo}) => {
+                    data.map(({id, image, logo, title, github, demo, hasLogo, isOpenSource}) => {
                         return (
                             <article key={id} className='portfolio__item'>
                             <div className='portfolio__item-image'>
-                            <img src={image} alt={title} />
+                                <img src={image} alt={title} />
                             </div>
-                            <h3>{title}</h3>
+                            <h3>
+                                {hasLogo && <img src={logo} alt='Logo Pôle emploi' className='portfolio__logo'/>}
+                                {title}
+                            </h3>
                             <div className='portfolio__item-cta'>
-                            <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                                {isOpenSource && <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>}
                             <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">{t('portfolio.demo')}</a>
                             </div>
                             </article>
                         )
-
                     })
                 }
             </div>
