@@ -67,7 +67,7 @@ const data = [
         logo: LOGO,
         title: 'Communications en temps réel - WebRTC',
         github: 'https://github.com/NsanVarela/demo-webrtc',
-        demo: 'https://realtime-communication-webrtc.osc-fr1.scalingo.io/',
+        demo: 'https://webrtc.nicolas-sanches-varela.com/',
         hasLogo: false,
         isOpenSource: true
     }
