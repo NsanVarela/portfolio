@@ -26,7 +26,7 @@ const languages = [
         name: 'English',
         country_code: 'gb'
     },
-    {
+/*    {
         code: 'es',
         name: 'Español',
         country_code: 'es',
@@ -46,7 +46,7 @@ const languages = [
         code: 'de',
         name: 'Deutsch',
         country_code: 'de',
-    },
+    },*/
 ]
 
 const App = () => {

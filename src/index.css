@@ -167,7 +167,7 @@ img {
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
     .dropdown {
-        position: relative;
+        position: absolute;
         left: 87.5%;
     }
 
@@ -193,7 +193,7 @@ img {
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
     .dropdown {
-        position: relative;
+        position: absolute;
         left: 75.5%;
     }
 

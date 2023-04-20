@@ -83,8 +83,9 @@
     }
 
     .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        display: none;
+        /*width: 50%;*/
+        /*margin: 2rem auto 4rem;*/
     }
 
     .about__content p {
@@ -96,8 +97,9 @@
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        display: none;
+        /*width: 65%;*/
+        /*margin: 0 auto 3rem;*/
     }
 
     .about__cards {

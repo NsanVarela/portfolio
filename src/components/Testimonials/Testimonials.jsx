@@ -1,9 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/daniel-sengmanivanh.png'
-import AVTR2 from '../../assets/fabien-godin.jpeg'
-import AVTR3 from '../../assets/veronique-robert.jpeg'
-import AVTR4 from '../../assets/makamousso-camara.jpeg'
+import AVTR1 from '../../assets/avatar-user-male.jpg'
+import AVTR2 from '../../assets/avatar-user-male.jpg'
+import AVTR4 from '../../assets/avatar-user-female.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -18,22 +17,20 @@ import {useTranslation} from "react-i18next";
 const data = [
     {
         avatar: AVTR1,
-        name: 'Daniel Sengmanivanh',
+        name: 'Daniel S.',
+        job: 'Tech Lead (Pôle emploi - Innovation)',
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
     },
     {
         avatar: AVTR2,
-        name: 'Fabien Godin',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
-    },
-    {
-        avatar: AVTR3,
-        name: 'Veronique Robert',
+        name: 'Jaouad G.',
+        job: 'Tech Lead (Pôle emploi - Direction Entreprises & Recrutement)',
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
     },
     {
         avatar: AVTR4,
-        name: 'Makamousso Camara',
+        name: 'Makamousso C.',
+        job: 'Tech Lead (Pôle emploi - Direction Entreprises & Recrutement)',
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
     }
 ]
@@ -54,13 +51,14 @@ const Testimonials = () => {
                     slidesPerView={1}
                     pagination={{ clickable: true }} >
                 {
-                    data.map(({avatar, name, review}, index) => {
+                    data.map(({avatar, name, job,  review}, index) => {
                         return (
                             <SwiperSlide key={index} className='testimonial'>
                                 <div className='client__avatar'>
                                     <img src={avatar} />
                                 </div>
                                 <h5 className='client__name'>{name}</h5>
+                                <small>{job}</small>
                                 <small className='client__review'>
                                     {review}
                                 </small>

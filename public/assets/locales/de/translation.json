@@ -29,9 +29,11 @@
   "experience": {
     "message": "Die Fähigkeiten, die ich habe",
     "title": "Meine Erfahrung",
-    "front_title": "Frontend-Entwicklung",
-    "back_title": "Backend-Entwicklung",
+    "languages_title": "Frontend-Entwicklung",
+    "sgbd_title": "SGBD",
     "work-environment_title": "Arbeitsumgebung",
+    "languages-frameworks_title": "Librairies & frameworks",
+    "tests_title": "Tests",
     "experienced": "Erfahren",
     "confirmed": "Bestätigt",
     "intermediate": "Intermediär",
@@ -55,7 +57,8 @@
   "portfolio": {
     "message": "Meine jüngsten Arbeiten",
     "title": "Portfolio",
-    "demo": "Online-Demo"
+    "demo": "Online-Demo",
+    "baseline": ["eins", "zwei", "drei"]
   },
   "services": {
     "message": "Was ich tun kann",

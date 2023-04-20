@@ -29,9 +29,11 @@
   "experience": {
     "message": "What Skills I Have",
     "title": "My Experience",
-    "front_title": "Frontend Development",
-    "back_title": "Backend Development",
+    "languages_title": "Frontend Development",
+    "sgbd_title": "SGBD",
     "work-environment_title": "Working environment",
+    "languages-frameworks_title": "Librairies & frameworks",
+    "tests_title": "Tests",
     "experienced": "Experienced",
     "confirmed": "confirmed",
     "intermediate": "Intermediate",
@@ -55,7 +57,11 @@
   "portfolio": {
     "message": "My Recent Work",
     "title": "Portfolio",
-    "demo": "Live Demo"
+    "demo": "Live Demo",
+    "baseline": [{
+      "id": 1,
+      "text": "two"
+    }]
   },
   "services": {
     "message": "What I can do",

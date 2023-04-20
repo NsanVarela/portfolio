@@ -29,9 +29,11 @@
   "experience": {
     "message": "المهارات التي أمتلكها",
     "title": "تجربتي",
-    "front_title": "تطوير الواجهة الأمامية",
-    "back_title": "تطوير الخلفية",
+    "languages_title": "تطوير الواجهة الأمامية",
+    "sgbd_title": "SGBD",
     "work-environment_title": "بيئة العمل",
+    "languages-frameworks_title": "Librairies & frameworks",
+    "tests_title": "Tests",
     "experienced": "ذوي الخبرة",
     "confirmed": "مؤكد",
     "intermediate": "متوسط",
@@ -55,7 +57,8 @@
   "portfolio": {
     "message": "أعمالي الأخيرة",
     "title": "مَلَفّ",
-    "demo": "عرض حي"
+    "demo": "عرض حي",
+    "baseline": ["...", "...", "..."]
   },
   "services": {
     "message": "ماذا استطيع ان افعل",
