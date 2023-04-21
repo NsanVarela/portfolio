@@ -58,10 +58,28 @@
     "message": "My Recent Work",
     "title": "Portfolio",
     "demo": "Live Demo",
-    "baseline": [{
-      "id": 1,
-      "text": "two"
-    }]
+    "items": [
+      {
+        "title": "Mes événements emploi",
+        "baseline": "All Pôle emploi advisors offer events in sectors that are recruiting on the My job events website. This service allows jobseekers to prepare, train, get information and be recruited by registering in one click for the event that corresponds to their needs, in complete autonomy!",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment": ["Docker", "Concourse"]
+        }
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "Pôle emploi's e-recruitment platform. Simple and fast, the web application allows jobseekers to apply and meet recruiters without having to go anywhere!",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment": ["Docker", "Concourse"]
+        }
+      }
+    ]
   },
   "services": {
     "message": "What I can do",

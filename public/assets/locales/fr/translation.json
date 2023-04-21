@@ -11,7 +11,7 @@
     "clients_number": "3 clients en France",
     "projects": "Projets",
     "projects_number": "Plus de 10 aboutis",
-    "description": "Avec plus de 4 années d'expériences dans le développement Web suite à une reconversion professionnelle, je peux aujourd’hui vous proposer mes services en tant que Développeur web Full stack confirmé. Fiable et capable de travailler de façon autonome comme en équipe, je possède une bonne capacité d’analyse et une vraie initiative dans la résolution de problèmes. Ma capactité d'adaptation me permet de travailler en équipe et de répondre à vos challenges Web, qu'ils soient mono-produit ou multi-produits en mode Agile / Scrum.",
+    "description": "Avec plus de 4 années d'expériences dans le développement Web suite à une reconversion professionnelle, je peux aujourd’hui vous proposer mes services en tant que Développeur web Full stack confirmé. Fiable et capable de travailler de façon autonome comme en équipe, je possède une bonne capacité d’analyse et une vraie initiative dans la résolution de problèmes. Ma capactité d"adaptation me permet de travailler en équipe et de répondre à vos challenges Web, qu"ils soient mono-produit ou multi-produits en mode Agile / Scrum.",
     "cta": "Discutons"
   },
   "contact": {
@@ -58,7 +58,28 @@
     "message": "Mes travaux récents",
     "title": "Portfolio",
     "demo": "Démo en ligne",
-    "baseline": ["un", "deux", "trois"]
+    "items": [
+      {
+        "title": "Mes événements emploi",
+        "baseline": "L’ensemble des conseillers Pôle emploi propose une offre évènementielle dans les secteurs qui recrutent sur le site Mes évènements emploi. Ce service permet aux demandeurs d’emploi de se préparer, de se former, de s’informer et d’être recrutés en s’inscrivant en un clic à l’évènement qui correspond à leur besoin, et ce en toute autonomie !",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment": ["Docker", "Concourse"]
+        }
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "Plateforme d'e-recrutement de Pôle emploi. Simple et rapide, l'application web permet aux demandeurs d'emploi de postuler et de rencontrez des recruteurs sans avoir à se déplacer !",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment": ["Docker", "Concourse"]
+        }
+      }
+    ]
   },
   "services": {
     "message": "Ce que je peux faire",

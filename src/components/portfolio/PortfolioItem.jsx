@@ -3,30 +3,6 @@ import { useState } from 'react'
 const PortfolioItem = ({ id, image, logo, title, github, demo, hasLogo, isOpenSource, baseline, stack }) => {
     const [hovered, setHovered] = useState(false)
 
-    // const { t, locale } = useTranslation()
-
-    // let baselineItems;
-
-    /*if (locale === 'fr') {
-        baselineItems = translationsFr.baseline.map((item, index) => (
-            <p className='overlay__content-baseline-text' key={index}>
-                {t(`portfolio.baseline.${index}`)}
-            </p>
-        ));
-    } else if (locale === 'en') {
-        baselineItems = translationsEn.baseline.map((item, index) => (
-            <p className='overlay__content-baseline-text' key={index}>
-                {t(`portfolio.baseline.${index}`)}
-            </p>
-        ));
-    } else if (locale === 'es') {
-        baselineItems = translationsEs.baseline.map((item, index) => (
-            <p className='overlay__content-baseline-text' key={index}>
-                {t(`portfolio.baseline.${index}`)}
-            </p>
-        ));
-    }*/
-
     return (
         <article key={id} className='portfolio__item'>
             <div

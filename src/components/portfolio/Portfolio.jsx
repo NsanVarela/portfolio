@@ -26,12 +26,12 @@ const Portfolio = () => {
             demo: 'https://mesevenementsemploi.pole-emploi.fr/mes-evenements-emploi/evenements',
             hasLogo: true,
             isOpenSource: true,
-            baseline: 'L’ensemble des conseillers Pôle emploi propose une offre évènementielle dans les secteurs qui recrutent sur le site Mes évènements emploi. Ce service permet aux demandeurs d’emploi de se préparer, de se former, de s’informer et d’être recrutés en s’inscrivant en un clic à l’évènement qui correspond à leur besoin, et ce en toute autonomie !',
+            baseline: t('portfolio.items.0.baseline'),
             stack: {
-                frontend: ['Angular 14'],
-                backend: ['Java', 'Spring (Data, Cloud, Boot, Batch...)', 'JaCoCo', 'JUnit', 'Mockito', 'Hibernate'],
-                database: ['PostgresSQL', 'Flyway'],
-                deployment: ['Docker', 'Concourse']
+                frontend: t('portfolio.items.0.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.0.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.0.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment: t('portfolio.items.0.stack.deployment', { joinArrays: ', ' }).split(', ')
             }
         },
         {
@@ -43,15 +43,15 @@ const Portfolio = () => {
             demo: 'https://salonenligne.pole-emploi.fr/candidat/',
             hasLogo: true,
             isOpenSource: false,
-            baseline: 'Plateforme d\'e-recrutement de Pôle emploi. Simple et rapide, l\'application web permet aux demandeurs d\'emploi de postuler et de rencontrez des recruteurs sans avoir à se déplacer !',
+            baseline: t('portfolio.items.1.baseline'),
             stack: {
-                frontend: ['Tapestry 5', 'Bootstrap', 'JQuery'],
-                backend: ['Java','Maven', 'JaCoCo', 'JUnit', 'Mockito'],
-                database: ['Oracle', 'JDBC'],
-                deployment: ['Jenkins']
+                frontend: t('portfolio.items.1.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.1.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.1.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment: t('portfolio.items.1.stack.deployment', { joinArrays: ', ' }).split(', ')
             }
         },
-        {
+/*        {
             id: 3,
             image: IMG3,
             logo: LOGO,
@@ -118,7 +118,7 @@ const Portfolio = () => {
                 database: ['PostgresSQL', 'Flyway'],
                 deployment: ['Docker', 'Concourse']
             }
-        }
+        }*/
     ]
 
     return (
@@ -128,7 +128,17 @@ const Portfolio = () => {
 
             <div className='container portfolio__container'>
                 {data.map((item) => (
-                    <PortfolioItem key={item.id} {...item} />
+                    <PortfolioItem
+                        key={item.id}
+                        {...item}
+                        baseline={t(item.baseline)}
+                        stack={{
+                            frontend: item.stack.frontend.map((value) => t(value)),
+                            backend: item.stack.backend.map((value) => t(value)),
+                            database: item.stack.database.map((value) => t(value)),
+                            deployment: item.stack.deployment.map((value) => t(value)),
+                        }}
+                    />
                 ))}
             </div>
         </section>
