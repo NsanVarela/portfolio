@@ -1,6 +1,23 @@
 import { useState } from 'react'
+import {useTranslation} from "react-i18next";
 
-const PortfolioItem = ({ id, image, logo, title, github, demo, hasLogo, isOpenSource, baseline, stack }) => {
+const PortfolioItem = (
+    {
+        id,
+        image,
+        logo,
+        title,
+        github,
+        demo,
+        hasLogo,
+        isOpenSource,
+        baseline,
+        stack,
+        front,
+        back,
+        db,
+        deployment
+    }) => {
     const [hovered, setHovered] = useState(false)
 
     return (
@@ -23,10 +40,10 @@ const PortfolioItem = ({ id, image, logo, title, github, demo, hasLogo, isOpenSo
                             <p className='overlay__content-stack'>
                                 <strong className='overlay__content-stack-title'>stack</strong>
                                 <ul className='overlay__content-stack-list'>
-                                    <li><strong>Front:&nbsp;</strong> {stack.frontend.join(', ')}</li>
-                                    <li><strong>Back:&nbsp;</strong>{stack.backend.join(', ')}</li>
-                                    <li><strong>DB:&nbsp;</strong>{stack.database.join(', ')}</li>
-                                    <li><strong>Déploiement:&nbsp;</strong>{stack.deployment.join(', ')}</li>
+                                    <li><strong>{front}:&nbsp;</strong> {stack.frontend.join(', ')}</li>
+                                    <li><strong>{back}:&nbsp;</strong>{stack.backend.join(', ')}</li>
+                                    <li><strong>{db}:&nbsp;</strong>{stack.database.join(', ')}</li>
+                                    <li><strong>{deployment}:&nbsp;</strong>{stack.deployment.join(', ')}</li>
                                 </ul>
 
                             </p>

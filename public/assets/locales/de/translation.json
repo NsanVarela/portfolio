@@ -57,8 +57,95 @@
   "portfolio": {
     "message": "Meine jüngsten Arbeiten",
     "title": "Portfolio",
+    "pro": "Berufliche Projekte",
+    "perso": "Persönliche Projekte",
     "demo": "Online-Demo",
-    "baseline": ["eins", "zwei", "drei"]
+    "items": [
+      {
+        "title": "Mes évènements emploi",
+        "baseline": "Alle Berater von Pôle Emploi bieten auf der Website Mes évènements emploi ein Veranstaltungsangebot in den Sektoren an, die Personal einstellen. Dieser Service ermöglicht es Arbeitssuchenden, sich vorzubereiten, weiterzubilden, sich zu informieren und eingestellt zu werden, indem sie sich mit einem Klick für die Veranstaltung anmelden, die ihrem Bedarf entspricht - und das völlig selbstständig!",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment_test": ["Docker", "Concourse", "JaCoCo", "JUnit", "Mockito", "Cypress"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "Die E-Recruiting-Plattform von Pôle Emploi. Die Webanwendung ist einfach und schnell und ermöglicht es Arbeitssuchenden, sich zu bewerben und Personalverantwortliche zu treffen, ohne sich vor Ort umsehen zu müssen!",
+        "stack": {
+          "frontend": ["Tapestry 5", "Bootstrap", "JQuery"],
+          "backend": ["Java", "Maven"],
+          "database": ["Oracle", "JDBC"],
+          "deployment_test": ["Docker", "Jenkins", "Cypress", "JaCoCo", "JUnit", "Mockito"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      },
+      {
+        "title": "TradEmploi",
+        "baseline": "Sofortübersetzungsdienst zur Unterstützung von Beratern bei der Begrüßung fremdsprachiger Antragsteller, der über das Büro der Berater zugänglich ist und eine künstliche Intelligenz enthält, die übersetzt und dann eine Sprachausgabe durch den Berater im Gegenzug in der Sprache des Antragstellers ermöglicht.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Node 12", "Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)"],
+          "database": ["Firebase"],
+          "deployment_test": ["Google App Engine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      },
+      {
+        "title": "La bonne compétence pro",
+        "baseline": "Ein Online-Service, der es Personalvermittlern ermöglicht, mit drei Klicks Arbeitssuchende zu finden, die kürzlich eine Ausbildung absolviert haben oder sich gerade in einer Ausbildung befinden, um eine von ihnen gesuchte Qualifikation zu erlangen. Es ist möglich, die Ausbildungen nach Region, Departement oder Stadt zu lokalisieren.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["keine Lagerung"],
+          "deployment_test": ["Docker", "cluster Docker Swarm", "Maven Proven", "Jenkins", "Cypress", "Amazon S3"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      },
+      {
+        "title": "Reaktive Weltkarte",
+        "baseline": "Präsentation einer animierten Weltkarte, die mithilfe der von der Leaflet.js API gesammelten Daten nach dem ausgewählten Land animiert wurde.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express"],
+          "database": ["keine Lagerung"],
+          "deployment_test": ["keine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      },
+      {
+        "title": "Echtzeit-Kommunikation - WebRTC",
+        "baseline": "Webanwendung mit Option 3 Kommunikationsoptionen: schriftlicher Austausch, per Video oder auch per Sprache mit schriftlicher Transkription.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express", "Websocket"],
+          "database": ["keine Lagerung"],
+          "deployment_test": ["keine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "Database",
+        "deployment": "Einsatz"
+      }
+    ]
   },
   "services": {
     "message": "Was ich tun kann",

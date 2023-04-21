@@ -138,6 +138,45 @@ const Experience = () => {
                 </div>
 
                 <div>
+                    <h3>{t('experience.work-environment_title')}</h3>
+                    <div className='experience__content'>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Système d'exploitation</h4>
+                                <small className='text-light'>Windows 10, </small>
+                                <small className='text-light'>Linux</small>
+                                <small className='text-light'>Mac OS</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Workflow</h4>
+                                <small className='text-light'>Git, </small>
+                                <small className='text-light'>Postman, </small>
+                                <small className='text-light'>pg Admin, </small>
+                                <small className='text-light'>Jira, </small>
+                                <small className='text-light'>Confluence, </small>
+                                <small className='text-light'>Trello</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsPatchCheck className='experience__details-icon' />
+                            <div>
+                                <h4>Méthodologie</h4>
+                                <small className='text-light'>Agile (SCRUM)</small>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='container experience__container-solo'>
+
+                <div>
                     <h3>{t('experience.tests_title')}</h3>
                     <div className='experience__content'>
                         <article className='experience__details'>
@@ -199,42 +238,9 @@ const Experience = () => {
                     </div>
                 </div>
 
-                <div>
-                    <h3>{t('experience.work-environment_title')}</h3>
-                    <div className='experience__content'>
-                        <article className='experience__details'>
-                            <BsPatchCheck className='experience__details-icon' />
-                            <div>
-                                <h4>Système d'exploitation</h4>
-                                <small className='text-light'>Windows 10, </small>
-                                <small className='text-light'>Linux</small>
-                                <small className='text-light'>Mac OS</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsPatchCheck className='experience__details-icon' />
-                            <div>
-                                <h4>Workflow</h4>
-                                <small className='text-light'>Git, </small>
-                                <small className='text-light'>Postman, </small>
-                                <small className='text-light'>pg Admin, </small>
-                                <small className='text-light'>Jira, </small>
-                                <small className='text-light'>Confluence, </small>
-                                <small className='text-light'>Trello</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsPatchCheck className='experience__details-icon' />
-                            <div>
-                                <h4>Méthodologie</h4>
-                                <small className='text-light'>Agile (SCRUM)</small>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-
             </div>
+
+
         </section>
     )
 }

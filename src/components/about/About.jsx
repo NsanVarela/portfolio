@@ -33,11 +33,11 @@ const About = () => {
                             <small>{t('about.experience_years', { number_of_years })}</small>
                         </article>
 
-                        <article className='about__card'>
+{/*                        <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>{t('about.clients')}</h5>
                             <small>{t('about.clients_number')}</small>
-                        </article>
+                        </article>*/}
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />

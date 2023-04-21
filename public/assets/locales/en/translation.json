@@ -57,6 +57,8 @@
   "portfolio": {
     "message": "My Recent Work",
     "title": "Portfolio",
+    "pro": "Professional projects",
+    "perso": "Personal projects",
     "demo": "Live Demo",
     "items": [
       {
@@ -66,18 +68,82 @@
           "frontend": ["Angular 14"],
           "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
           "database": ["PostgresSQL", "Flyway"],
-          "deployment": ["Docker", "Concourse"]
-        }
+          "deployment_test": ["Docker", "Concourse", "JaCoCo", "JUnit", "Mockito", "Cypress"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
       },
       {
         "title": "Salons en ligne de recrutement",
-        "baseline": "Pôle emploi's e-recruitment platform. Simple and fast, the web application allows jobseekers to apply and meet recruiters without having to go anywhere!",
+        "baseline": "Pôle emploi's e-recruitment platform. Simple and fast, the web application allows job seekers to apply and meet recruiters without having to go anywhere!",
         "stack": {
-          "frontend": ["Angular 14"],
+          "frontend": ["Tapestry 5", "Bootstrap", "JQuery"],
+          "backend": ["Java", "Maven"],
+          "database": ["Oracle", "JDBC"],
+          "deployment_test": ["Docker", "Jenkins", "Cypress", "JaCoCo", "JUnit", "Mockito"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
+      },
+      {
+        "title": "TradEmploi",
+        "baseline": "Instant translation service to help advisers welcome non-English speaking applicants, accessible from the advisers' desk, which integrates an artificial intelligence that translates and then allows the adviser to synthesise it back into the applicant's language.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Node 12", "Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)"],
+          "database": ["Firebase"],
+          "deployment_test": ["Google App Engine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
+      },
+      {
+        "title": "La bonne compétence pro",
+        "baseline": "Online service that allows recruiters to locate in 3 clicks, job seekers who have recently been trained or are currently training in a skill they are looking for. It is possible to locate training courses by region, department or town.",
+        "stack": {
+          "frontend": ["Angular 10"],
           "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
-          "database": ["PostgresSQL", "Flyway"],
-          "deployment": ["Docker", "Concourse"]
-        }
+          "database": ["no storage"],
+          "deployment_test": ["Docker", "cluster Docker Swarm", "Maven Proven", "Jenkins", "Cypress", "Amazon S3"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
+      },
+      {
+        "title": "Reactive world map",
+        "baseline": "Presentation of an animated world map according to the country selected thanks to the data collected by the Leaflet.js API",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express"],
+          "database": ["no storage"],
+          "deployment_test": ["none"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
+      },
+      {
+        "title": "Real-time communications - WebRTC",
+        "baseline": "Web application with 3 communication options: written exchange, video exchange or voice exchange with written transcription.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express", "Websocket"],
+          "database": ["no storage"],
+          "deployment_test": ["none"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "database",
+        "deployment": "deployment"
       }
     ]
   },
