@@ -4,7 +4,14 @@
     gap: 2rem;
 }
 
-.experience__container > div {
+.experience__container-solo {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 40%;
+    padding-top: 2rem;
+}
+
+.experience__container > div, .experience__container-solo > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -12,13 +19,13 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.experience__container > div:hover, .experience__container-solo > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.experience__container > div h3 {
+.experience__container > div h3, .experience__container-solo > div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
@@ -46,6 +53,11 @@
         grid-template-columns: 1fr;
     }
 
+    .experience__container-solo {
+        grid-template-columns: 1fr;
+        max-width: 70%;
+    }
+
     .experience__container > div {
         width: 80%;
         padding: 2rem;
@@ -63,7 +75,11 @@
         gap: 1rem;
     }
 
-    .experience__container > div {
+    .experience__container-solo {
+        max-width: 100%;
+    }
+
+    .experience__container > div, .experience__container-solo > div {
         width: 100%;
         padding: 2rem 1rem;
     }

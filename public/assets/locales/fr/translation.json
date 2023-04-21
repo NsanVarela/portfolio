@@ -57,8 +57,95 @@
   "portfolio": {
     "message": "Mes travaux récents",
     "title": "Portfolio",
+    "pro": "Projets professionnels",
+    "perso": "Projets personnels",
     "demo": "Démo en ligne",
-    "baseline": ["un", "deux", "trois"]
+    "items": [
+      {
+        "title": "Mes évènements emploi",
+        "baseline": "L’ensemble des conseillers Pôle emploi propose une offre évènementielle dans les secteurs qui recrutent sur le site Mes évènements emploi. Ce service permet aux demandeurs d’emploi de se préparer, de se former, de s’informer et d’être recrutés en s’inscrivant en un clic à l’évènement qui correspond à leur besoin, et ce en toute autonomie !",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment_test": ["Docker", "Concourse", "JaCoCo", "JUnit", "Mockito", "Cypress"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "Plateforme d'e-recrutement de Pôle emploi. Simple et rapide, l'application web permet aux demandeurs d'emploi de postuler et de rencontrez des recruteurs sans avoir à se déplacer !",
+        "stack": {
+          "frontend": ["Tapestry 5", "Bootstrap", "JQuery"],
+          "backend": ["Java", "Maven"],
+          "database": ["Oracle", "JDBC"],
+          "deployment_test": ["Docker", "Jenkins", "Cypress", "JaCoCo", "JUnit", "Mockito"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      },
+      {
+        "title": "TradEmploi",
+        "baseline": "Service de traduction instantanée pour aider les conseillers à accueillir les demandeurs allophones accessible depuis le bureau des conseillers, qui intègre une intelligence artificielle qui traduit, puis permet de faire une synthèse vocale par le conseiller en retour, dans la langue du demandeur.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Node 12", "Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)"],
+          "database": ["Firebase"],
+          "deployment_test": ["Google App Engine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      },
+      {
+        "title": "La bonne compétence pro",
+        "baseline": "Service en ligne qui permet aux recruteurs de localiser en 3 clics, les demandeurs d’emploi qui ont été récemment formés ou qui sont en cours de formation à une compétence qu\\'ils recherchent. Il est possible de localiser les formations par région, département ou ville.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["pas de stockage"],
+          "deployment_test": ["Docker", "cluster Docker Swarm", "Maven Proven", "Jenkins", "Cypress", "Amazon S3"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      },
+      {
+        "title": "Carte du monde réactive",
+        "baseline": "Présentation d'une carte du monde animée selon le pays selectionné grâce aux données récoltées par l'API Leaflet.js",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express"],
+          "database": ["pas de stockage"],
+          "deployment_test": ["aucun"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      },
+      {
+        "title": "Communications en temps réel - WebRTC",
+        "baseline": "Application web avec option 3 options de communication : échange écrit, par vidéo ou encore par la voix avec retranscription écrite.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express", "Websocket"],
+          "database": ["pas de stockage"],
+          "deployment_test": ["aucun"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de données",
+        "deployment": "déploiement"
+      }
+    ]
   },
   "services": {
     "message": "Ce que je peux faire",

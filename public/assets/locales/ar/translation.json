@@ -57,8 +57,95 @@
   "portfolio": {
     "message": "أعمالي الأخيرة",
     "title": "مَلَفّ",
+    "pro": "مشاريع احترافية",
+    "perso": "المشاريع الشخصية",
     "demo": "عرض حي",
-    "baseline": ["...", "...", "..."]
+    "items": [
+      {
+        "title": "Mes évènements emploi",
+        "baseline": "يقدم جميع مستشاري Pôle emploi عرضًا لحدث في القطاعات التي يتم التوظيف فيها على موقع أحداث التوظيف الخاصة بي. تتيح هذه الخدمة للباحثين عن عمل التحضير والتدريب والحصول على المعلومات والتوظيف عن طريق التسجيل بضغطة واحدة للحدث الذي يتوافق مع احتياجاتهم ، وهذا في استقلالية كاملة!",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment_test": ["Docker", "Concourse", "JaCoCo", "JUnit", "Mockito", "Cypress"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "منصة التوظيف الإلكتروني Pôle emploi. بسيط وسريع ، يتيح تطبيق الويب للباحثين عن عمل التقدم والالتقاء بمسؤولي التوظيف دون الحاجة إلى السفر!",
+        "stack": {
+          "frontend": ["Tapestry 5", "Bootstrap", "JQuery"],
+          "backend": ["Java", "Maven"],
+          "database": ["Oracle", "JDBC"],
+          "deployment_test": ["Docker", "Jenkins", "Cypress", "JaCoCo", "JUnit", "Mockito"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      },
+      {
+        "title": "TradEmploi",
+        "baseline": "خدمة الترجمة الفورية لمساعدة المستشارين على الترحيب بمقدمي الطلبات allophone التي يمكن الوصول إليها من مكتب المستشارين ، والذي يتضمن الذكاء الاصطناعي الذي يترجم ، ثم يسمح بتوليف الصوت من قبل المستشار في المقابل ، بلغة مقدم الطلب.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Node 12", "Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)"],
+          "database": ["Firebase"],
+          "deployment_test": ["Google App Engine"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      },
+      {
+        "title": "La bonne compétence pro",
+        "baseline": "خدمة عبر الإنترنت تتيح لموظفي التوظيف تحديد الباحثين عن عمل الذين تم تدريبهم مؤخرًا أو في طور التدرب على مهارة يبحثون عنها ، من خلال 3 نقرات. من الممكن تحديد موقع التدريب حسب المنطقة أو القسم أو المدينة.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["لا يوجد تخزين"],
+          "deployment_test": ["Docker", "cluster Docker Swarm", "Maven Proven", "Jenkins", "Cypress", "Amazon S3"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      },
+      {
+        "title": "خريطة العالم سريعة الاستجابة",
+        "baseline": "عرض خريطة العالم المتحركة وفقًا للبلد المحدد بفضل البيانات التي تم جمعها بواسطة Leaflet.js API",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express"],
+          "database": ["لا يوجد تخزين"],
+          "deployment_test": ["لا أحد"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      },
+      {
+        "title": "الاتصالات في الوقت الحقيقي - WebRTC",
+        "baseline": "تطبيق ويب مع خيارات اتصال من الخيار 3: التبادل الكتابي ، بالفيديو أو بالصوت مع النسخ المكتوب.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express", "Websocket"],
+          "database": ["لا يوجد تخزين"],
+          "deployment_test": ["لا أحد"]
+        },
+        "frontend": "تطوير الواجهة الأمامية",
+        "backend": "تطوير الخلفية",
+        "database": "قاعدة البيانات",
+        "deployment": "تعيين"
+      }
+    ]
   },
   "services": {
     "message": "ماذا استطيع ان افعل",

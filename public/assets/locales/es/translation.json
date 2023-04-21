@@ -57,8 +57,95 @@
   "portfolio": {
     "message": "Mi trabajo reciente",
     "title": "Portafolio",
+    "pro": "Proyectos profesionales",
+    "perso": "Proyectos personales",
     "demo": "Demo en vivo",
-    "baseline": ["uno", "dos", "tres"]
+    "items": [
+      {
+        "title": "Mes évènements emploi",
+        "baseline": "Todos los consejeros de Pôle emploi proponen eventos en los sectores que están contratando en el sitio web My job events. Este servicio permite a los demandantes de empleo prepararse, formarse, informarse y ser contratados inscribiéndose en un solo clic en el evento que corresponda a sus necesidades, ¡con total autonomía!",
+        "stack": {
+          "frontend": ["Angular 14"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "Hibernate"],
+          "database": ["PostgresSQL", "Flyway"],
+          "deployment_test": ["Docker", "Concourse", "JaCoCo", "JUnit", "Mockito", "Cypress"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      },
+      {
+        "title": "Salons en ligne de recrutement",
+        "baseline": "La plataforma de contratación electrónica de Pôle emploi. Sencilla y rápida, la aplicación web permite a los solicitantes de empleo presentar su candidatura y reunirse con los reclutadores sin tener que desplazarse.",
+        "stack": {
+          "frontend": ["Tapestry 5", "Bootstrap", "JQuery"],
+          "backend": ["Java", "Maven"],
+          "database": ["Oracle", "JDBC"],
+          "deployment_test": ["Docker", "Jenkins", "Cypress", "JaCoCo", "JUnit", "Mockito"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      },
+      {
+        "title": "TradEmploi",
+        "baseline": "Servicio de traducción instantánea para ayudar a los asesores a acoger a los solicitantes de habla no inglesa, accesible desde el mostrador del asesor, que integra una inteligencia artificial que traduce y luego permite al asesor sintetizar de nuevo en el idioma del solicitante.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Node 12", "Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)"],
+          "database": ["Firebase"],
+          "deployment_test": ["Google App Engine"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      },
+      {
+        "title": "La bonne compétence pro",
+        "baseline": "Servicio en línea que permite a los contratantes localizar en 3 clics a demandantes de empleo que hayan recibido formación recientemente o se estén formando actualmente en una habilidad que estén buscando. Es posible localizar cursos de formación por región, departamento o ciudad.",
+        "stack": {
+          "frontend": ["Angular 10"],
+          "backend": ["Java", "Spring (Data, Cloud, Boot, Batch...)", "JaCoCo", "JUnit", "Mockito", "Hibernate"],
+          "database": ["sin almacenamiento"],
+          "deployment_test": ["Docker", "cluster Docker Swarm", "Maven Proven", "Jenkins", "Cypress", "Amazon S3"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      },
+      {
+        "title": "Mapa del mundo interactivo",
+        "baseline": "Presentación de un mapamundi animado en función del país seleccionado gracias a los datos recogidos por la API Leaflet.js",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express"],
+          "database": ["sin almacenamiento"],
+          "deployment_test": ["sin"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      },
+      {
+        "title": "Comunicaciones en tiempo real - WebRTC",
+        "baseline": "Aplicación web con 3 opciones de comunicación: intercambio escrito, intercambio de vídeo o intercambio de voz con transcripción escrita.",
+        "stack": {
+          "frontend": ["Pug"],
+          "backend": ["Node", "Express", "Websocket"],
+          "database": ["sin almacenamiento"],
+          "deployment_test": ["sin"]
+        },
+        "frontend": "frontend",
+        "backend": "backend",
+        "database": "base de datos",
+        "deployment": "despliegue"
+      }
+    ]
   },
   "services": {
     "message": "Lo que puedo hacer",

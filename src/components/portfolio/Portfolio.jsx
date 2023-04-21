@@ -16,108 +16,135 @@ const Portfolio = () => {
 
     const { t } = useTranslation()
 
-    const data = [
+    const professionalProjects = [
         {
             id: 1,
             image: IMG1,
             logo: LOGO,
-            title: 'Mes événements emploi',
+            title: t('portfolio.items.0.title'),
             github: 'https://github.com/StartupsPoleEmploi/mesevenementsemploi',
             demo: 'https://mesevenementsemploi.pole-emploi.fr/mes-evenements-emploi/evenements',
             hasLogo: true,
             isOpenSource: true,
-            baseline: 'L’ensemble des conseillers Pôle emploi propose une offre évènementielle dans les secteurs qui recrutent sur le site Mes évènements emploi. Ce service permet aux demandeurs d’emploi de se préparer, de se former, de s’informer et d’être recrutés en s’inscrivant en un clic à l’évènement qui correspond à leur besoin, et ce en toute autonomie !',
+            baseline: t('portfolio.items.0.baseline'),
             stack: {
-                frontend: ['Angular 14'],
-                backend: ['Java', 'Spring (Data, Cloud, Boot, Batch...)', 'JaCoCo', 'JUnit', 'Mockito', 'Hibernate'],
-                database: ['PostgresSQL', 'Flyway'],
-                deployment: ['Docker', 'Concourse']
-            }
+                frontend: t('portfolio.items.0.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.0.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.0.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.0.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.0.frontend'),
+            back: t('portfolio.items.0.backend'),
+            db: t('portfolio.items.0.database'),
+            deployment: t('portfolio.items.0.deployment')
         },
         {
             id: 2,
             image: IMG2,
             logo: LOGO,
-            title: 'Salons en ligne de recrutement',
+            title: t('portfolio.items.1.title'),
             github: '#',
             demo: 'https://salonenligne.pole-emploi.fr/candidat/',
             hasLogo: true,
             isOpenSource: false,
-            baseline: 'Plateforme d\'e-recrutement de Pôle emploi. Simple et rapide, l\'application web permet aux demandeurs d\'emploi de postuler et de rencontrez des recruteurs sans avoir à se déplacer !',
+            baseline: t('portfolio.items.1.baseline'),
             stack: {
-                frontend: ['Tapestry 5', 'Bootstrap', 'JQuery'],
-                backend: ['Java','Maven', 'JaCoCo', 'JUnit', 'Mockito'],
-                database: ['Oracle', 'JDBC'],
-                deployment: ['Jenkins']
-            }
+                frontend: t('portfolio.items.1.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.1.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.1.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.1.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.1.frontend'),
+            back: t('portfolio.items.1.backend'),
+            db: t('portfolio.items.1.database'),
+            deployment: t('portfolio.items.1.deployment')
         },
         {
             id: 3,
             image: IMG3,
             logo: LOGO,
-            title: 'TradEmploi',
+            title: t('portfolio.items.2.title'),
             github: 'https://github.com/OSS-Pole-Emploi/TradEmploi',
             demo: 'https://trad.pole-emploi.fr/start',
             hasLogo: true,
             isOpenSource: true,
-            baseline: 'Service de traduction instantanée pour aider les conseillers à accueillir les demandeurs allophones accessible depuis le bureau des conseillers, qui intègre une intelligence artificielle qui traduit, puis permet de faire une synthèse vocale par le conseiller en retour, dans la langue du demandeur.',
+            baseline: t('portfolio.items.2.baseline'),
             stack: {
-                frontend: ['Angular 10'],
-                backend: ['Node 12', 'Google Cloud (Cloud Functions, Text-to-Speech, Speech-to-Text, Translation AI)'],
-                database: ['Firebase'],
-                deployment: ['Google App Engine']
-            }
+                frontend: t('portfolio.items.2.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.2.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.2.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.2.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.2.frontend'),
+            back: t('portfolio.items.2.backend'),
+            db: t('portfolio.items.2.database'),
+            deployment: t('portfolio.items.2.deployment')
         },
         {
             id: 4,
             image: IMG4,
             logo: LOGO,
-            title: 'La bonne compétence pro',
+            title: t('portfolio.items.3.title'),
             github: '#',
             demo: 'https://labonnecompetencepro.pole-emploi.fr/',
             hasLogo: true,
             isOpenSource: false,
-            baseline: 'Service en ligne qui permet aux recruteurs de localiser en 3 clics, les demandeurs d’emploi qui ont été récemment formés ou qui sont en cours de formation à une compétence qu\'ils recherchent. Il est possible de localiser les formations par région, département ou ville.',
+            baseline: t('portfolio.items.3.baseline'),
             stack: {
-                frontend: ['Angular 14'],
-                backend: ['Java', 'Spring (Data, Cloud, Boot, Batch...)', 'JaCoCo', 'JUnit', 'Mockito', 'Hibernate'],
-                database: ['PostgresSQL', 'Flyway'],
-                deployment: ['Docker', 'Concourse']
-            }
-        },
+                frontend: t('portfolio.items.3.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.3.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.3.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.3.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.3.frontend'),
+            back: t('portfolio.items.3.backend'),
+            db: t('portfolio.items.3.database'),
+            deployment: t('portfolio.items.3.deployment')
+        }
+    ]
+
+    const personalProjects = [
         {
             id: 5,
             image: IMG5,
             logo: LOGO,
-            title: 'Map animation',
+            title: t('portfolio.items.4.title'),
             github: 'https://github.com/NsanVarela/noBord-map',
             demo: 'https://map.nicolas-sanches-varela.com/',
             hasLogo: false,
             isOpenSource: true,
-            baseline: '',
+            baseline: t('portfolio.items.4.baseline'),
             stack: {
-                frontend: ['Angular 14'],
-                backend: ['Java', 'Spring (Data, Cloud, Boot, Batch...)', 'JaCoCo', 'JUnit', 'Mockito', 'Hibernate'],
-                database: ['PostgresSQL', 'Flyway'],
-                deployment: ['Docker', 'Concourse']
-            }
+                frontend: t('portfolio.items.4.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.4.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.4.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.4.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.4.frontend'),
+            back: t('portfolio.items.4.backend'),
+            db: t('portfolio.items.4.database'),
+            deployment: t('portfolio.items.4.deployment')
         },
         {
             id: 6,
             image: IMG6,
             logo: LOGO,
-            title: 'Communications en temps réel - WebRTC',
+            title: t('portfolio.items.5.title'),
             github: 'https://github.com/NsanVarela/demo-webrtc',
             demo: 'https://webrtc.nicolas-sanches-varela.com/',
             hasLogo: false,
             isOpenSource: true,
-            baseline: '',
+            baseline: t('portfolio.items.5.baseline'),
             stack: {
-                frontend: ['Angular 14'],
-                backend: ['Java', 'Spring (Data, Cloud, Boot, Batch...)', 'JaCoCo', 'JUnit', 'Mockito', 'Hibernate'],
-                database: ['PostgresSQL', 'Flyway'],
-                deployment: ['Docker', 'Concourse']
-            }
+                frontend: t('portfolio.items.5.stack.frontend', { joinArrays: ', ' }).split(', '),
+                backend: t('portfolio.items.5.stack.backend', { joinArrays: ', ' }).split(', '),
+                database: t('portfolio.items.5.stack.database', { joinArrays: ', ' }).split(', '),
+                deployment_test: t('portfolio.items.5.stack.deployment_test', { joinArrays: ', ' }).split(', ')
+            },
+            front: t('portfolio.items.5.frontend'),
+            back: t('portfolio.items.5.backend'),
+            db: t('portfolio.items.5.database'),
+            deployment: t('portfolio.items.5.deployment')
         }
     ]
 
@@ -126,11 +153,48 @@ const Portfolio = () => {
             <h5>{t('portfolio.message')}</h5>
             <h2>{t('portfolio.title')}</h2>
 
+            <h3 className='portfolio__pro'>{t('portfolio.pro')}</h3>
             <div className='container portfolio__container'>
-                {data.map((item) => (
-                    <PortfolioItem key={item.id} {...item} />
+                {professionalProjects.map((item) => (
+                    <PortfolioItem
+                        key={item.id}
+                        {...item}
+                        baseline={t(item.baseline)}
+                        stack={{
+                            frontend: item.stack.frontend.map((value) => t(value)),
+                            backend: item.stack.backend.map((value) => t(value)),
+                            database: item.stack.database.map((value) => t(value)),
+                            deployment: item.stack.deployment_test.map((value) => t(value)),
+                        }}
+                        front={item.front}
+                        back={item.back}
+                        db={item.db}
+                        deployment={item.deployment}
+                    />
                 ))}
             </div>
+
+            <h3 className='portfolio__perso'>{t('portfolio.perso')}</h3>
+            <div className='container portfolio__container'>
+                {personalProjects.map((item) => (
+                    <PortfolioItem
+                        key={item.id}
+                        {...item}
+                        baseline={t(item.baseline)}
+                        stack={{
+                            frontend: item.stack.frontend.map((value) => t(value)),
+                            backend: item.stack.backend.map((value) => t(value)),
+                            database: item.stack.database.map((value) => t(value)),
+                            deployment: item.stack.deployment_test.map((value) => t(value)),
+                        }}
+                        front={item.front}
+                        back={item.back}
+                        db={item.db}
+                        deployment={item.deployment}
+                    />
+                ))}
+            </div>
+
         </section>
     )
 }
