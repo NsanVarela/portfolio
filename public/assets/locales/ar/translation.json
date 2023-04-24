@@ -165,7 +165,24 @@
   },
   "testimonials": {
     "message": "تعليقات من الزملاء",
-    "title": "الشهادات - التوصيات"
+    "title": "الشهادات - التوصيات",
+    "items": [
+      {
+        "job": "مطور مكدس كامل",
+        "company": "في Ubisoft",
+        "review": "لقد استمتعت بالعمل مع نيكولاس. يقدم كودًا عالي الجودة ولا يتردد في مشاركته. إنه يتواصل بشكل جيد للغاية مع فريقنا والأعمال. كما يشارك في الاجتماعات والمناقشات. لديه أيضًا أفكار جيدة لتحسين فريقنا والبيئة في Pôle Emploi. في الختام عظيم \uD83D\uDC4D"
+      },
+      {
+        "job": "قائد تقني",
+        "company": "Pôle emploi في ",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      },
+      {
+        "job": "قائد تقني",
+        "company": "Pôle emploi في ",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      }
+    ]
   },
   "cta": {
     "download": "تحميل السيرة الذاتية",

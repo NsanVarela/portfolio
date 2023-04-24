@@ -165,7 +165,24 @@
   },
   "testimonials": {
     "message": "Opiniões dos colegas",
-    "title": "Testemunhos"
+    "title": "Testemunhos",
+    "items": [
+      {
+        "job": "Revelador",
+        "company": "na Ubisoft",
+        "review": "Gostei de trabalhar com Nicolas. Ele entrega um código de boa qualidade e não hesita em partilhá-lo. Ele comunica muito bem com a nossa equipa e com o negócio. Participa também em reuniões e discussões. Tem também boas ideias para melhorar a nossa equipa e o ambiente do Pôle emploi. Em conclusão, grande \uD83D\uDC4D"
+      },
+      {
+        "job": "Líder técnico",
+        "company": "na Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      },
+      {
+        "job": "Líder técnico",
+        "company": "na Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      }
+    ]
   },
   "cta": {
     "download": "Descarregar o CV",

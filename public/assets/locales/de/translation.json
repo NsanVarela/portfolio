@@ -165,7 +165,24 @@
   },
   "testimonials": {
     "message": "Meinungen von Kollegen",
-    "title": "Erfahrungsberichte"
+    "title": "Erfahrungsberichte",
+    "items": [
+      {
+        "job": "Entwickler",
+        "company": "bei Ubisoft",
+        "review": "Ich habe es genossen, mit Nicolas zu arbeiten. Er liefert qualitativ hochwertigen Code und zögert nicht, ihn mit anderen zu teilen. Er kommuniziert sehr gut mit unserem Team und der Branche. Er nimmt auch an Meetings und Diskussionen teil. Er hat auch gute Ideen, wie wir unser Team und die Umgebung von Pôle Emploi verbessern können. Abschließend, super \uD83D\uDC4D"
+      },
+      {
+        "job": "Technischer Leiter",
+        "company": "bei Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      },
+      {
+        "job": "Technischer Leiter",
+        "company": "bei Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      }
+    ]
   },
   "cta": {
     "download": "Lebenslauf hochladen",

@@ -83,14 +83,14 @@ const Experience = () => {
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Node</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.confirmed')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>ExpressJs</h4>
-                                <small className='text-light'>{t('experience.intermediate')}</small>
+                                <small className='text-light'>{t('experience.confirmed')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
@@ -104,7 +104,7 @@ const Experience = () => {
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Material UI</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.confirmed')}</small>
                             </div>
                         </article>
                     </div>
@@ -117,21 +117,21 @@ const Experience = () => {
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>MongoDB</h4>
-                                <small className='text-light'>{t('experience.basic')}</small>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>MySQL</h4>
-                                <small className='text-light'>{t('experience.basic')}</small>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>PostgresSQL</h4>
-                                <small className='text-light'>{t('experience.basic')}</small>
+                                <small className='text-light'>{t('experience.intermediate')}</small>
                             </div>
                         </article>
                     </div>
@@ -211,28 +211,28 @@ const Experience = () => {
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Jenkins</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.basic')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Concourse</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.basic')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Docker</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.basic')}</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheck className='experience__details-icon' />
                             <div>
                                 <h4>Kubernetes</h4>
-                                <small className='text-light'>{t('experience.experienced')}</small>
+                                <small className='text-light'>{t('experience.basic')}</small>
                             </div>
                         </article>
                     </div>
