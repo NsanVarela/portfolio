@@ -165,7 +165,15 @@
   },
   "testimonials": {
     "message": "Colleagues' opinions",
-    "title": "Testimonials"
+    "title": "Testimonials",
+    "items": [
+      {
+        "name": "Daniel S.",
+        "job": "Fullstack Developer",
+        "company": "Ubisoft",
+        "review": "I enjoyed working with Nicolas. He delivers good quality of code and doesn(t hesitate to share it. He communicates very well with our team and products owners. He participates in meetings and discussions too. Also, he has good ideas to improve our team and Pole emploi environment. Overall, all good \uD83D\uDC4D"
+      }
+    ]
   },
   "cta": {
     "download": "Download CV",

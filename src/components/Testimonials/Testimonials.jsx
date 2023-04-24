@@ -14,30 +14,38 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import {useTranslation} from "react-i18next";
 
-const data = [
-    {
-        avatar: AVTR1,
-        name: 'Daniel S.',
-        job: 'Tech Lead (Pôle emploi - Innovation)',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
-    },
-    {
-        avatar: AVTR2,
-        name: 'Jaouad G.',
-        job: 'Tech Lead (Pôle emploi - Direction Entreprises & Recrutement)',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
-    },
-    {
-        avatar: AVTR4,
-        name: 'Makamousso C.',
-        job: 'Tech Lead (Pôle emploi - Direction Entreprises & Recrutement)',
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem. Maecenas nisi felis, iaculis quis faucibus ultrices, aliquet id ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus posuere dictum tortor, vulputate convallis turpis ornare auctor.\n'
-    }
-]
+
 
 const Testimonials = () => {
 
     const { t } = useTranslation()
+
+    const data = [
+        {
+            id: 1,
+            avatar: AVTR1,
+            name: 'Daniel S.',
+            job: t('testimonials.items.0.job'),
+            company: t('testimonials.items.0.company'),
+            review: t('testimonials.items.0.review')
+        },
+        {
+            id: 2,
+            avatar: AVTR2,
+            name: 'Jaouad G.',
+            job: t('testimonials.items.1.job'),
+            company: t('testimonials.items.1.company'),
+            review: t('testimonials.items.1.review')
+        },
+        {
+            id: 3,
+            avatar: AVTR4,
+            name: 'Makamousso C.',
+            job: t('testimonials.items.2.job'),
+            company: t('testimonials.items.2.company'),
+            review: t('testimonials.items.2.review')
+        }
+    ]
 
     return (
         <section id='testimonials'>
@@ -51,16 +59,18 @@ const Testimonials = () => {
                     slidesPerView={1}
                     pagination={{ clickable: true }} >
                 {
-                    data.map(({avatar, name, job,  review}, index) => {
+                    data.map((item) => {
                         return (
-                            <SwiperSlide key={index} className='testimonial'>
+                            <SwiperSlide
+                                key={item.id}
+                                {...item} className='testimonial'>
                                 <div className='client__avatar'>
-                                    <img src={avatar} />
+                                    <img src={item.avatar} alt='avatar' />
                                 </div>
-                                <h5 className='client__name'>{name}</h5>
-                                <small>{job}</small>
+                                <h5 className='client__name'>{item.name}</h5>
+                                <small>{item.job} {item.company}</small>
                                 <small className='client__review'>
-                                    {review}
+                                    {item.review}
                                 </small>
                             </SwiperSlide>
                         )

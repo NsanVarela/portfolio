@@ -165,7 +165,24 @@
   },
   "testimonials": {
     "message": "Opiniones de colegas",
-    "title": "Testimonios"
+    "title": "Testimonios",
+    "items": [
+      {
+        "job": "Desarrollador",
+        "company": "en Ubisoft",
+        "review": "Me gustó trabajar con Nicolas. Entrega código de buena calidad y no duda en compartirlo. Se comunica muy bien con nuestro equipo y con la empresa. También participa en reuniones y debates. También tiene buenas ideas para mejorar nuestro equipo y el entorno de Pôle emploi. En conclusión, un gran \uD83D\uDC4D"
+      },
+      {
+        "job": "Responsable técnico",
+        "company": "en Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      },
+      {
+        "job": "Responsable técnico",
+        "company": "en Pôle emploi",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non maximus sem."
+      }
+    ]
   },
   "cta": {
     "download": "Descargar currículum",
