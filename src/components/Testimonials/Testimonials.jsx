@@ -65,7 +65,7 @@ const Testimonials = () => {
                                 key={item.id}
                                 {...item} className='testimonial'>
                                 <div className='client__avatar'>
-                                    <img src={item.avatar} />
+                                    <img src={item.avatar} alt='avatar' />
                                 </div>
                                 <h5 className='client__name'>{item.name}</h5>
                                 <small>{item.job} {item.company}</small>
